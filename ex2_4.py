@@ -4,4 +4,5 @@ for i in range(1,6):
 print(a)
 
 for j in range(1,len(a)+1):
-  print(a[:-1])
+  print(a)
+  a = a[:-1]
