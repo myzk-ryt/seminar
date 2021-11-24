@@ -21,3 +21,5 @@ for i in range(1,5):
   plt.xlabel(namelist[i-1]) # 軸名
   plt.ylabel("Number of sales") #軸名
   plt.grid(True)      #グリッド線（True:引く、False:引かない）
+  
+plt.show()
