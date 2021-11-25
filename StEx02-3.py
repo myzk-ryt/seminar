@@ -22,6 +22,7 @@ def abcOutput():
   print("y^ = ",round(ModelLR.coef_[0],3), "x1 + ", round(ModelLR.coef_[1],3), "x2 + ", round(ModelLR.coef_[2],3), "x3 + ", round(ModelLR.intercept_,3))
 
 print("切片付き回帰式A")
+abcOutput()
   
 #---次に、切片なし回帰式B---
 
@@ -29,3 +30,4 @@ ModelLR_noB = LinearRegression(fit_intercept=False) #線形回帰モデルのセ
 ModelLR_noB.fit(x,y) #パラメータ獲得
 
 print("切片付き回帰式B")
+abcOutput()
