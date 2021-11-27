@@ -1,7 +1,8 @@
+#必要なライブラリの読み込み
 from sklearn.linear_model import LinearRegression
-#相関がなかった広告費を要素から除外して考えます。
 
-#データ
+#相関がなかった広告費を要素から除外して考えます。
+#データ準備
 y = dat[:,0]
 x1 = dat[:,1]
 x2 = dat[:,3]
